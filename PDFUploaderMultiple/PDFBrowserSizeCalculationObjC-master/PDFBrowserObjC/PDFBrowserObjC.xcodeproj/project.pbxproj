@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6023A14D24FE30640076113A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6023A14C24FE30640076113A /* AppDelegate.m */; };
+		6023A15024FE30640076113A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6023A14F24FE30640076113A /* SceneDelegate.m */; };
+		6023A15324FE30640076113A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6023A15224FE30640076113A /* ViewController.m */; };
+		6023A15624FE30640076113A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6023A15424FE30640076113A /* Main.storyboard */; };
+		6023A15824FE30670076113A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6023A15724FE30670076113A /* Assets.xcassets */; };
+		6023A15B24FE30670076113A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6023A15924FE30670076113A /* LaunchScreen.storyboard */; };
+		6023A15E24FE30670076113A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6023A15D24FE30670076113A /* main.m */; };
+		6023A16824FE30680076113A /* PDFBrowserObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6023A16724FE30680076113A /* PDFBrowserObjCTests.m */; };
+		6023A17324FE30680076113A /* PDFBrowserObjCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6023A17224FE30680076113A /* PDFBrowserObjCUITests.m */; };
+		6023A18524FE48E30076113A /* ViewMyPDFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6023A18424FE48E30076113A /* ViewMyPDFViewController.m */; };
+		606F44CD2507695700EBDEBF /* base65ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 606F44CC2507695700EBDEBF /* base65ViewController.m */; };
+		606F44D02508C11900EBDEBF /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 606F44CF2508C11900EBDEBF /* QuickLook.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6023A16424FE30680076113A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6023A14024FE30640076113A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6023A14724FE30640076113A;
+			remoteInfo = PDFBrowserObjC;
+		};
+		6023A16F24FE30680076113A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6023A14024FE30640076113A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6023A14724FE30640076113A;
+			remoteInfo = PDFBrowserObjC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6023A14824FE30640076113A /* PDFBrowserObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDFBrowserObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6023A14B24FE30640076113A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6023A14C24FE30640076113A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6023A14E24FE30640076113A /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		6023A14F24FE30640076113A /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		6023A15124FE30640076113A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6023A15224FE30640076113A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6023A15524FE30640076113A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6023A15724FE30670076113A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6023A15A24FE30670076113A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6023A15C24FE30670076113A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6023A15D24FE30670076113A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6023A16324FE30680076113A /* PDFBrowserObjCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PDFBrowserObjCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6023A16724FE30680076113A /* PDFBrowserObjCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDFBrowserObjCTests.m; sourceTree = "<group>"; };
+		6023A16924FE30680076113A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6023A16E24FE30680076113A /* PDFBrowserObjCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PDFBrowserObjCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6023A17224FE30680076113A /* PDFBrowserObjCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDFBrowserObjCUITests.m; sourceTree = "<group>"; };
+		6023A17424FE30680076113A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6023A18324FE48E30076113A /* ViewMyPDFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewMyPDFViewController.h; sourceTree = "<group>"; };
+		6023A18424FE48E30076113A /* ViewMyPDFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewMyPDFViewController.m; sourceTree = "<group>"; };
+		606F44CB2507695700EBDEBF /* base65ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = base65ViewController.h; sourceTree = "<group>"; };
+		606F44CC2507695700EBDEBF /* base65ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = base65ViewController.m; sourceTree = "<group>"; };
+		606F44CF2508C11900EBDEBF /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6023A14524FE30640076113A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				606F44D02508C11900EBDEBF /* QuickLook.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6023A16024FE30680076113A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6023A16B24FE30680076113A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6023A13F24FE30640076113A = {
+			isa = PBXGroup;
+			children = (
+				6023A14A24FE30640076113A /* PDFBrowserObjC */,
+				6023A16624FE30680076113A /* PDFBrowserObjCTests */,
+				6023A17124FE30680076113A /* PDFBrowserObjCUITests */,
+				6023A14924FE30640076113A /* Products */,
+				606F44CE2508C11900EBDEBF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6023A14924FE30640076113A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6023A14824FE30640076113A /* PDFBrowserObjC.app */,
+				6023A16324FE30680076113A /* PDFBrowserObjCTests.xctest */,
+				6023A16E24FE30680076113A /* PDFBrowserObjCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6023A14A24FE30640076113A /* PDFBrowserObjC */ = {
+			isa = PBXGroup;
+			children = (
+				6023A14B24FE30640076113A /* AppDelegate.h */,
+				6023A14C24FE30640076113A /* AppDelegate.m */,
+				6023A14E24FE30640076113A /* SceneDelegate.h */,
+				6023A14F24FE30640076113A /* SceneDelegate.m */,
+				6023A15124FE30640076113A /* ViewController.h */,
+				6023A15224FE30640076113A /* ViewController.m */,
+				6023A15424FE30640076113A /* Main.storyboard */,
+				6023A15724FE30670076113A /* Assets.xcassets */,
+				6023A15924FE30670076113A /* LaunchScreen.storyboard */,
+				6023A15C24FE30670076113A /* Info.plist */,
+				6023A15D24FE30670076113A /* main.m */,
+				6023A18324FE48E30076113A /* ViewMyPDFViewController.h */,
+				6023A18424FE48E30076113A /* ViewMyPDFViewController.m */,
+				606F44CB2507695700EBDEBF /* base65ViewController.h */,
+				606F44CC2507695700EBDEBF /* base65ViewController.m */,
+			);
+			path = PDFBrowserObjC;
+			sourceTree = "<group>";
+		};
+		6023A16624FE30680076113A /* PDFBrowserObjCTests */ = {
+			isa = PBXGroup;
+			children = (
+				6023A16724FE30680076113A /* PDFBrowserObjCTests.m */,
+				6023A16924FE30680076113A /* Info.plist */,
+			);
+			path = PDFBrowserObjCTests;
+			sourceTree = "<group>";
+		};
+		6023A17124FE30680076113A /* PDFBrowserObjCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6023A17224FE30680076113A /* PDFBrowserObjCUITests.m */,
+				6023A17424FE30680076113A /* Info.plist */,
+			);
+			path = PDFBrowserObjCUITests;
+			sourceTree = "<group>";
+		};
+		606F44CE2508C11900EBDEBF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				606F44CF2508C11900EBDEBF /* QuickLook.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6023A14724FE30640076113A /* PDFBrowserObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6023A17724FE30680076113A /* Build configuration list for PBXNativeTarget "PDFBrowserObjC" */;
+			buildPhases = (
+				6023A14424FE30640076113A /* Sources */,
+				6023A14524FE30640076113A /* Frameworks */,
+				6023A14624FE30640076113A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PDFBrowserObjC;
+			productName = PDFBrowserObjC;
+			productReference = 6023A14824FE30640076113A /* PDFBrowserObjC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6023A16224FE30680076113A /* PDFBrowserObjCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6023A17A24FE30680076113A /* Build configuration list for PBXNativeTarget "PDFBrowserObjCTests" */;
+			buildPhases = (
+				6023A15F24FE30680076113A /* Sources */,
+				6023A16024FE30680076113A /* Frameworks */,
+				6023A16124FE30680076113A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6023A16524FE30680076113A /* PBXTargetDependency */,
+			);
+			name = PDFBrowserObjCTests;
+			productName = PDFBrowserObjCTests;
+			productReference = 6023A16324FE30680076113A /* PDFBrowserObjCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6023A16D24FE30680076113A /* PDFBrowserObjCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6023A17D24FE30680076113A /* Build configuration list for PBXNativeTarget "PDFBrowserObjCUITests" */;
+			buildPhases = (
+				6023A16A24FE30680076113A /* Sources */,
+				6023A16B24FE30680076113A /* Frameworks */,
+				6023A16C24FE30680076113A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6023A17024FE30680076113A /* PBXTargetDependency */,
+			);
+			name = PDFBrowserObjCUITests;
+			productName = PDFBrowserObjCUITests;
+			productReference = 6023A16E24FE30680076113A /* PDFBrowserObjCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6023A14024FE30640076113A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = Abbie;
+				TargetAttributes = {
+					6023A14724FE30640076113A = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					6023A16224FE30680076113A = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 6023A14724FE30640076113A;
+					};
+					6023A16D24FE30680076113A = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 6023A14724FE30640076113A;
+					};
+				};
+			};
+			buildConfigurationList = 6023A14324FE30640076113A /* Build configuration list for PBXProject "PDFBrowserObjC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6023A13F24FE30640076113A;
+			productRefGroup = 6023A14924FE30640076113A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6023A14724FE30640076113A /* PDFBrowserObjC */,
+				6023A16224FE30680076113A /* PDFBrowserObjCTests */,
+				6023A16D24FE30680076113A /* PDFBrowserObjCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6023A14624FE30640076113A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6023A15B24FE30670076113A /* LaunchScreen.storyboard in Resources */,
+				6023A15824FE30670076113A /* Assets.xcassets in Resources */,
+				6023A15624FE30640076113A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6023A16124FE30680076113A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6023A16C24FE30680076113A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6023A14424FE30640076113A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				606F44CD2507695700EBDEBF /* base65ViewController.m in Sources */,
+				6023A15324FE30640076113A /* ViewController.m in Sources */,
+				6023A18524FE48E30076113A /* ViewMyPDFViewController.m in Sources */,
+				6023A14D24FE30640076113A /* AppDelegate.m in Sources */,
+				6023A15E24FE30670076113A /* main.m in Sources */,
+				6023A15024FE30640076113A /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6023A15F24FE30680076113A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6023A16824FE30680076113A /* PDFBrowserObjCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6023A16A24FE30680076113A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6023A17324FE30680076113A /* PDFBrowserObjCUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6023A16524FE30680076113A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6023A14724FE30640076113A /* PDFBrowserObjC */;
+			targetProxy = 6023A16424FE30680076113A /* PBXContainerItemProxy */;
+		};
+		6023A17024FE30680076113A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6023A14724FE30640076113A /* PDFBrowserObjC */;
+			targetProxy = 6023A16F24FE30680076113A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6023A15424FE30640076113A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6023A15524FE30640076113A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6023A15924FE30670076113A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6023A15A24FE30670076113A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6023A17524FE30680076113A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6023A17624FE30680076113A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6023A17824FE30680076113A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P7KR8D5MT4;
+				INFOPLIST_FILE = PDFBrowserObjC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.abbie.pdfBrowserObjc.PDFBrowserObjC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6023A17924FE30680076113A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P7KR8D5MT4;
+				INFOPLIST_FILE = PDFBrowserObjC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.abbie.pdfBrowserObjc.PDFBrowserObjC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6023A17B24FE30680076113A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PDFBrowserObjCTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.abbie.pdfBrowserObjc.PDFBrowserObjCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PDFBrowserObjC.app/PDFBrowserObjC";
+			};
+			name = Debug;
+		};
+		6023A17C24FE30680076113A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PDFBrowserObjCTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.abbie.pdfBrowserObjc.PDFBrowserObjCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PDFBrowserObjC.app/PDFBrowserObjC";
+			};
+			name = Release;
+		};
+		6023A17E24FE30680076113A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PDFBrowserObjCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.abbie.pdfBrowserObjc.PDFBrowserObjCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PDFBrowserObjC;
+			};
+			name = Debug;
+		};
+		6023A17F24FE30680076113A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PDFBrowserObjCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.abbie.pdfBrowserObjc.PDFBrowserObjCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PDFBrowserObjC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6023A14324FE30640076113A /* Build configuration list for PBXProject "PDFBrowserObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6023A17524FE30680076113A /* Debug */,
+				6023A17624FE30680076113A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6023A17724FE30680076113A /* Build configuration list for PBXNativeTarget "PDFBrowserObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6023A17824FE30680076113A /* Debug */,
+				6023A17924FE30680076113A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6023A17A24FE30680076113A /* Build configuration list for PBXNativeTarget "PDFBrowserObjCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6023A17B24FE30680076113A /* Debug */,
+				6023A17C24FE30680076113A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6023A17D24FE30680076113A /* Build configuration list for PBXNativeTarget "PDFBrowserObjCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6023A17E24FE30680076113A /* Debug */,
+				6023A17F24FE30680076113A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6023A14024FE30640076113A /* Project object */;
+}
